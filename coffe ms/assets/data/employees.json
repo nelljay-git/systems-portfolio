@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "John Smith", "role": "Admin", "email": "john@coffeeshop.com", "phone": "09170001111", "schedule": "Mon-Fri 8AM-5PM", "status": "Active", "avatar": "" },
+  { "id": 2, "name": "Emily Johnson", "role": "Manager", "email": "emily@coffeeshop.com", "phone": "09170002222", "schedule": "Mon-Fri 10AM-7PM", "status": "Active", "avatar": "" },
+  { "id": 3, "name": "Michael Brown", "role": "Cashier", "email": "michael@coffeeshop.com", "phone": "09170003333", "schedule": "Mon-Wed 6AM-2PM", "status": "Active", "avatar": "" },
+  { "id": 4, "name": "Sarah Wilson", "role": "Barista", "email": "sarah@coffeeshop.com", "phone": "09170004444", "schedule": "Thu-Sat 6AM-2PM", "status": "Active", "avatar": "" },
+  { "id": 5, "name": "David Lee", "role": "Barista", "email": "david@coffeeshop.com", "phone": "09170005555", "schedule": "Tue-Sat 2PM-10PM", "status": "Active", "avatar": "" },
+  { "id": 6, "name": "Jessica Taylor", "role": "Cashier", "email": "jessica@coffeeshop.com", "phone": "09170006666", "schedule": "Thu-Sun 2PM-10PM", "status": "Inactive", "avatar": "" },
+  { "id": 7, "name": "Robert Martinez", "role": "Barista", "email": "robert@coffeeshop.com", "phone": "09170007777", "schedule": "Mon-Fri 6AM-2PM", "status": "Active", "avatar": "" }
+]

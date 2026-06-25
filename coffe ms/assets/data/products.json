@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Espresso",
+    "category": "Coffee",
+    "price": 3.50,
+    "stock": 100,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Caramel Macchiato",
+    "category": "Coffee",
+    "price": 4.75,
+    "stock": 80,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "Matcha Latte",
+    "category": "Milk Tea",
+    "price": 4.50,
+    "stock": 60,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 4,
+    "name": "Chocolate Croissant",
+    "category": "Snacks",
+    "price": 3.25,
+    "stock": 30,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038028a?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 5,
+    "name": "Blueberry Muffin",
+    "category": "Desserts",
+    "price": 2.75,
+    "stock": 25,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1555952494-efd681c7e3f9?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 6,
+    "name": "Iced Americano",
+    "category": "Coffee",
+    "price": 3.25,
+    "stock": 120,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 7,
+    "name": "Taro Milk Tea",
+    "category": "Milk Tea",
+    "price": 4.25,
+    "stock": 50,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 8,
+    "name": "Vanilla Syrup",
+    "category": "Add-ons",
+    "price": 0.75,
+    "stock": 200,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1589365278144-c9e022f4cb49?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 9,
+    "name": "Ham & Cheese Sandwich",
+    "category": "Snacks",
+    "price": 4.50,
+    "stock": 20,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 10,
+    "name": "Tiramisu",
+    "category": "Desserts",
+    "price": 5.00,
+    "stock": 15,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 11,
+    "name": "Hazelnut Latte",
+    "category": "Coffee",
+    "price": 4.50,
+    "stock": 0,
+    "status": "Inactive",
+    "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=100&h=100&fit=crop"
+  },
+  {
+    "id": 12,
+    "name": "Brown Sugar Milk Tea",
+    "category": "Milk Tea",
+    "price": 4.75,
+    "stock": 40,
+    "status": "Active",
+    "image": "https://images.unsplash.com/photo-1558857563-b371033873b8?w=100&h=100&fit=crop"
+  }
+]

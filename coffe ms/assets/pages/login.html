@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Brew & Co. Management</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="auth-page">
+  <div class="auth-container">
+    <div class="auth-card">
+      <div class="auth-logo">
+        <div class="icon"><i class="fas fa-mug-hot"></i></div>
+        <h1>Brew & Co.</h1>
+        <p>Sign in to your management dashboard</p>
+      </div>
+      <form class="auth-form" id="login-form" onsubmit="return handleLogin(event)">
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <div style="position:relative">
+            <input class="form-input" type="email" id="login-email" placeholder="admin@coffeeshop.com" value="admin@coffeeshop.com" required style="padding-left:36px">
+            <span style="position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-muted)"><i class="fas fa-envelope"></i></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">
+            <span>Password</span>
+            <a href="forgot-password.html">Forgot password?</a>
+          </label>
+          <div class="password-toggle">
+            <input class="form-input" type="password" id="login-password" placeholder="Enter your password" value="password123" required style="padding-left:36px;padding-right:36px">
+            <span style="position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-muted)"><i class="fas fa-lock"></i></span>
+            <button type="button" class="toggle-btn" onclick="togglePassword()"><i class="fas fa-eye"></i></button>
+          </div>
+        </div>
+        <div class="form-group" style="display:flex;align-items:center;justify-content:space-between">
+          <div class="checkbox-group">
+            <input type="checkbox" id="remember-me" checked>
+            <label for="remember-me">Remember me</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Sign In</button>
+      </form>
+      <div class="auth-footer">
+        Don't have an account? <a href="#">Contact Administrator</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function togglePassword() {
+      const input = document.getElementById('login-password');
+      input.type = input.type === 'password' ? 'text' : 'password';
+    }
+
+    function handleLogin(e) {
+      e.preventDefault();
+      const email = document.getElementById('login-email').value;
+      const password = document.getElementById('login-password').value;
+
+      if (!email || !password) {
+        alert('Please fill in all fields');
+        return false;
+      }
+
+      if (!email.includes('@')) {
+        alert('Please enter a valid email');
+        return false;
+      }
+
+      window.location.href = '../../index.html';
+      return false;
+    }
+  </script>
+</body>
+</html>

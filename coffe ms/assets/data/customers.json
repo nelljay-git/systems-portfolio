@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Maria Santos", "email": "maria@email.com", "phone": "09171234567", "loyalty_points": 250, "total_orders": 15, "joined": "2024-01-15" },
+  { "id": 2, "name": "Juan Dela Cruz", "email": "juan@email.com", "phone": "09179876543", "loyalty_points": 120, "total_orders": 8, "joined": "2024-03-22" },
+  { "id": 3, "name": "Ana Gonzales", "email": "ana@email.com", "phone": "09175551234", "loyalty_points": 480, "total_orders": 25, "joined": "2023-11-01" },
+  { "id": 4, "name": "Pedro Reyes", "email": "pedro@email.com", "phone": "09174443322", "loyalty_points": 75, "total_orders": 5, "joined": "2024-06-10" },
+  { "id": 5, "name": "Lisa Chen", "email": "lisa@email.com", "phone": "09176667788", "loyalty_points": 310, "total_orders": 18, "joined": "2024-02-28" },
+  { "id": 6, "name": "Carlos Mendoza", "email": "carlos@email.com", "phone": "09178889900", "loyalty_points": 50, "total_orders": 3, "joined": "2024-08-05" },
+  { "id": 7, "name": "Sofia Reyes", "email": "sofia@email.com", "phone": "09171112233", "loyalty_points": 600, "total_orders": 30, "joined": "2023-09-15" },
+  { "id": 8, "name": "Miguel Tan", "email": "miguel@email.com", "phone": "09172223344", "loyalty_points": 190, "total_orders": 12, "joined": "2024-04-18" }
+]

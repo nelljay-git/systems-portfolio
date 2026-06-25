@@ -1,0 +1,16 @@
+[
+  { "id": 1, "name": "Coffee Beans - Arabica", "quantity": 25, "unit": "kg", "supplier": "Bean Supply Co.", "cost": 15.00, "status": "In Stock" },
+  { "id": 2, "name": "Coffee Beans - Robusta", "quantity": 10, "unit": "kg", "supplier": "Bean Supply Co.", "cost": 12.00, "status": "In Stock" },
+  { "id": 3, "name": "Fresh Milk", "quantity": 40, "unit": "L", "supplier": "Dairy Fresh Inc.", "cost": 1.50, "status": "In Stock" },
+  { "id": 4, "name": "Vanilla Syrup", "quantity": 3, "unit": "L", "supplier": "Flavor King", "cost": 8.00, "status": "Low Stock" },
+  { "id": 5, "name": "Caramel Syrup", "quantity": 5, "unit": "L", "supplier": "Flavor King", "cost": 8.00, "status": "In Stock" },
+  { "id": 6, "name": "White Sugar", "quantity": 0, "unit": "kg", "supplier": "SweetCo", "cost": 2.00, "status": "Out of Stock" },
+  { "id": 7, "name": "Brown Sugar", "quantity": 8, "unit": "kg", "supplier": "SweetCo", "cost": 2.50, "status": "In Stock" },
+  { "id": 8, "name": "Paper Cups (Small)", "quantity": 2, "unit": "boxes", "supplier": "PackPro", "cost": 12.00, "status": "Low Stock" },
+  { "id": 9, "name": "Paper Cups (Medium)", "quantity": 15, "unit": "boxes", "supplier": "PackPro", "cost": 14.00, "status": "In Stock" },
+  { "id": 10, "name": "Paper Cups (Large)", "quantity": 0, "unit": "boxes", "supplier": "PackPro", "cost": 16.00, "status": "Out of Stock" },
+  { "id": 11, "name": "Plastic Lids", "quantity": 500, "unit": "pcs", "supplier": "PackPro", "cost": 0.10, "status": "In Stock" },
+  { "id": 12, "name": "Matcha Powder", "quantity": 2, "unit": "kg", "supplier": "TeaHouse Ltd.", "cost": 25.00, "status": "Low Stock" },
+  { "id": 13, "name": "Taro Powder", "quantity": 4, "unit": "kg", "supplier": "TeaHouse Ltd.", "cost": 22.00, "status": "In Stock" },
+  { "id": 14, "name": "Chocolate Sauce", "quantity": 6, "unit": "L", "supplier": "Flavor King", "cost": 7.00, "status": "In Stock" }
+]

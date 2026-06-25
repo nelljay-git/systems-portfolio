@@ -1,0 +1,10 @@
+[
+  { "id": 1001, "customer": "Maria Santos", "items": [{ "product": "Classic Espresso", "qty": 2, "price": 3.50 }], "total": 7.00, "status": "Completed", "payment": "Cash", "date": "2024-12-20 09:30", "notes": "" },
+  { "id": 1002, "customer": "Juan Dela Cruz", "items": [{ "product": "Caramel Macchiato", "qty": 1, "price": 4.75 }, { "product": "Chocolate Croissant", "qty": 1, "price": 3.25 }], "total": 8.00, "status": "Completed", "payment": "GCash", "date": "2024-12-20 10:15", "notes": "Extra caramel" },
+  { "id": 1003, "customer": "Walk-in", "items": [{ "product": "Iced Americano", "qty": 3, "price": 3.25 }], "total": 9.75, "status": "Preparing", "payment": "Cash", "date": "2024-12-21 08:00", "notes": "" },
+  { "id": 1004, "customer": "Ana Gonzales", "items": [{ "product": "Matcha Latte", "qty": 1, "price": 4.50 }, { "product": "Blueberry Muffin", "qty": 2, "price": 2.75 }], "total": 10.00, "status": "Pending", "payment": "Card", "date": "2024-12-21 09:45", "notes": "No sugar" },
+  { "id": 1005, "customer": "Walk-in", "items": [{ "product": "Taro Milk Tea", "qty": 2, "price": 4.25 }, { "product": "Vanilla Syrup", "qty": 1, "price": 0.75 }], "total": 9.25, "status": "Ready", "payment": "GCash", "date": "2024-12-21 10:30", "notes": "" },
+  { "id": 1006, "customer": "Lisa Chen", "items": [{ "product": "Classic Espresso", "qty": 1, "price": 3.50 }], "total": 3.50, "status": "Cancelled", "payment": "Cash", "date": "2024-12-21 11:00", "notes": "Customer cancelled" },
+  { "id": 1007, "customer": "Pedro Reyes", "items": [{ "product": "Ham & Cheese Sandwich", "qty": 2, "price": 4.50 }, { "product": "Iced Americano", "qty": 1, "price": 3.25 }], "total": 12.25, "status": "Completed", "payment": "Card", "date": "2024-12-21 12:15", "notes": "" },
+  { "id": 1008, "customer": "Walk-in", "items": [{ "product": "Tiramisu", "qty": 1, "price": 5.00 }], "total": 5.00, "status": "Pending", "payment": "Cash", "date": "2024-12-21 13:00", "notes": "For takeout" }
+]
